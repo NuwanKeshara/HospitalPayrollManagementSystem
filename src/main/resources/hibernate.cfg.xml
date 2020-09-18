@@ -31,6 +31,7 @@
 		<mapping class="com.hms.prm.model.TestDoc"/>
 		<mapping class="com.hms.prm.model.TestNurse"/>
 		<mapping class="com.hms.prm.model.TestStaff"/>
+		<mapping class="com.hms.prm.model.Login"/>
 		
 	</session-factory>
 </hibernate-configuration>
