@@ -1,0 +1,7 @@
+SELECT * FROM payroll_management.nurse_monthly_payslip;
+
+insert into payroll_management.nurse_monthly_payslip values ('NS1000' , 'Ms. Robin Quivers' , 'Nurse Midwife' , 75000.00,5000.00 , 0.00 , 1000.00 , 0.00 , 'EPF/ETF', 2000.00 , 6000.00 , 79000.00 ,'2020-09-30');
+insert into payroll_management.nurse_monthly_payslip values ('NS1001' , 'Mrs. Tiffany Brissette' , 'Nurse Educator' , 90000.00, 5000.50 , 0.00 , 1000.50 , 1000.00 , 'EPF/ETF', 2000.00 , 5001.00 , 93001.00 ,'2020-09-30');
+insert into payroll_management.nurse_monthly_payslip values ('NS1002' , 'Ms. Tina Wesson' , 'Mental Health Nurse' , 88000.00, 3000.00 , 4000.00 , 1000.00 , 0.00 , 'EPF/ETF and personal loans', 18000.00 , 8000.00 , 78000.00 ,'2020-09-30');
+insert into payroll_management.nurse_monthly_payslip values ('NS1003' , 'Mrs. Naomi Judd' , 'Perioperative Nurse' , 65000.00, 5000.00 , 0.00 , 1000.00 , 0.00 , 'EPF/ETF and housing loans', 10000.00 , 6000.00 , 61000.00 ,'2020-09-30');
+insert into payroll_management.nurse_monthly_payslip values ('NS1004' , 'Ms. Florence Nightingale' , 'Geriatric Nursing' , 60000.00, 5000.00 , 0.00 , 1000.00 , 0.00 , 'EPF/ETF and annual deduction', 2000.00 , 6000.00 , 64000.00 ,'2020-09-30');

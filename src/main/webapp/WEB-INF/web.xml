@@ -1,0 +1,152 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+	<welcome-file-list>
+        <welcome-file>payroll_home.jsp</welcome-file>
+     </welcome-file-list>
+    
+	<display-name>Archetype Created Web Application</display-name>
+	
+	
+	<servlet>
+		<servlet-name>DoctorUpdate</servlet-name>
+		<servlet-class>com.hms.prm.servlet.DoctorUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DoctorUpdate</servlet-name>
+		<url-pattern>/DoctorUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DoctorMonthlyPaySlipSave</servlet-name>
+		<servlet-class>com.hms.prm.servlet.DoctorMonthlyPaySlipSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DoctorMonthlyPaySlipSave</servlet-name>
+		<url-pattern>/DoctorMonthlyPaySlipSave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DoctorDelete</servlet-name>
+		<servlet-class>com.hms.prm.servlet.DoctorDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DoctorDelete</servlet-name>
+		<url-pattern>/DoctorDelete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NurseUpdate</servlet-name>
+		<servlet-class>com.hms.prm.servlet.NurseUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NurseUpdate</servlet-name>
+		<url-pattern>/NurseUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NurseMonthlyPaySlipSave</servlet-name>
+		<servlet-class>com.hms.prm.servlet.NurseMonthlyPaySlipSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NurseMonthlyPaySlipSave</servlet-name>
+		<url-pattern>/NurseMonthlyPaySlipSave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NurseDelete</servlet-name>
+		<servlet-class>com.hms.prm.servlet.NurseDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NurseDelete</servlet-name>
+		<url-pattern>/NurseDelete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StaffUpdate</servlet-name>
+		<servlet-class>com.hms.prm.servlet.StaffUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StaffUpdate</servlet-name>
+		<url-pattern>/StaffUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StaffMonthlyPaySlipSave</servlet-name>
+		<servlet-class>com.hms.prm.servlet.StaffMonthlyPaySlipSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StaffMonthlyPaySlipSave</servlet-name>
+		<url-pattern>/StaffMonthlyPaySlipSave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StaffDelete</servlet-name>
+		<servlet-class>com.hms.prm.servlet.StaffDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StaffDelete</servlet-name>
+		<url-pattern>/StaffDelete</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EmployeeView</servlet-name>
+		<servlet-class>com.hms.prm.servlet.EmployeeView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeView</servlet-name>
+		<url-pattern>/EmployeeView</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EmployeeDelete</servlet-name>
+		<servlet-class>com.hms.prm.servlet.EmployeeDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeDelete</servlet-name>
+		<url-pattern>/EmployeeDelete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewPaySheet</servlet-name>
+		<servlet-class>com.hms.prm.servlet.ViewPaySheet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewPaySheet</servlet-name>
+		<url-pattern>/ViewPaySheet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CreatePaySheet</servlet-name>
+		<servlet-class>com.hms.prm.servlet.CreatePaySheet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreatePaySheet</servlet-name>
+		<url-pattern>/CreatePaySheet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PayrollSave</servlet-name>
+		<servlet-class>com.hms.prm.servlet.PayrollSave</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SearchFunction</servlet-name>
+		<display-name>SearchFunction</display-name>
+		<description></description>
+		<servlet-class>com.hms.prm.servlet.SearchFunction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PayrollSave</servlet-name>
+		<url-pattern>/PayrollSave</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchFunction</servlet-name>
+		<url-pattern>/SearchFunction</url-pattern>
+	</servlet-mapping>
+</web-app>
+  
+  
